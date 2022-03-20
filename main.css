@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #ccc;
+  border-radius: 1rem;
+  user-select: none;
+}
+
+li.dragover {
+  background-color: #aaa;
+}
